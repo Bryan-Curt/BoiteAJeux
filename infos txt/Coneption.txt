@@ -1,0 +1,40 @@
+Bataille navale :
+
+- BatailleNavale : Main de l'application. Sert à lancer la bataille navale qui n'est pas intégrée.
+- BatailleNavale1 : Classe de bataille navale. Sert à intégrer la bataille navale dans l'interface globale.
+- Bateau : classe qui me permet de créer un bateau avec sa vie etc.
+- Case : Classe qui descend de jButton, pour l'aspect graphique. C'est elles qui sont cliquées.
+- Etats : gestion des états d'une case.
+- PanelFond : sert à ajouter une image sur un JPanel (aspect graphique).
+- Plateau_IA / Plateau_Joueur : classes créant les grilles de jeu.
+
+Pendu 
+
+Classes:
+
+- FirstFrame: Cette classe permet d’afficher une premier fenêtre. J’ai grâce au méthode de swing j’ai pu faire une interface graphique en positionnant les différents éléments.
+- FrameP: cette classe permet d’avoir la fenêtre principale avec le mot caché et les modification des photos correspondante. 
+- Game: cette classe permet de générer le nombre d’essai ainsi que de saisir l’objet mot. On modifie le mot au cours du jeu.
+- ImagePanel: cette classe conduit donc à l’affichage des bons des éléments de types images se situant dans le dossier netbeasproject.
+- Word: cette classe permets de prendre un mot dans un dictionnaire que j’ai trouvé sur internet. Cette classe permets d’avoir toutes les informations sur le mot.
+- ControllerFrameP: cette classe permet de contrôler la fenêtre principale. On a donc les nombres des essaies, la érecupereation des caractères suite à un clique, la mis à jour des donnés sur la fenêtre.
+- Boutton1: cette classe permets d’utiliser des boutons de simple caractère pour introduire les lettres pour reconstituer le mot.
+- Boutton2: elle suit le même concept que le bouton1 mais ce sont des boutons avec de nombreux caractères à l’interireur.
+- About: cette classe m’a permis d’avoir la nouvelle fenêtre du à propos. Cette fenêtre permet d’avoir des informations sur le jeu du pendu.
+
+Interface:
+
+- Classe Connecte: C'est la classe joueur, c'est elle qui vas stoquer le pseudo, le mot de passe et les scores du joueur.
+
+- Classe Annuaire: C'est un objet constitué d'une arraylist pour pouvoir la gérer ainsi que les objets Connecte qui se trouvent ˆ l'intrieur.
+
+- Interface Interface1: C'est la premire Interface du jeu, elle va venir proposer de se connecter, s'enregistrer ou jouer en tant qu'invit. C'est elle qui va tre lance en premire ˆ l'excution du code.
+
+- InterfaceDeConnexion: va demander de rentrer un mot de passe et un pseudo pour se connecter ˆ un compte si il existe et que le mot de passe est correct
+
+- InterfaceEnregistrement: Va demander un pseudo et un mot de passe pour, si les deux sont corrects, crer un compte.
+
+- InterfaceJeu: Va proposer par des boutons les deux jeux et les lancer selon les dsirs de l'utilisateur. Ainsi que le lancement de l'interface score.
+
+- InterfaceScores: affiche les scores qui sont soit rcuprs soit calculs.
+- Classe Serialisation: Contient deux mthodes qui sont utilises dans d'autres classes interfaces, l'une sauvegarde les donnes dans un fichier, l'autre les rcupre.

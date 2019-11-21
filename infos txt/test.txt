@@ -1,0 +1,26 @@
+Tests réalisés :
+
+Bataille navale:
+- Un bateau ne peut pas être placé sur l'emplacement d'un autre bateau, ou s'il ne rentre pas dans
+la grille.
+- Une case ne peut pas être recliquée une fois qu'elle l'a été. Aucune interaction n'a lieu si c'est
+le cas.
+- Possibilité de placer horizontalement / verticalement les bateaux. Conditions de placements 
+fonctionnelles dans les deux cas.
+- Bouton abandonner quitte le jeu.
+- Si un bateau n'a plus de vie, il est coulé.
+- Une partie peut être relancée, tout se réinitialise.
+
+Pendu:
+
+Afin de realiser ce jeu, nous avons tout d'abord réaliser le jeu sur console. Nous avons pu de nombreuses variables
+en intégrant des prints. Cette methode m'a permis de suivre l'avancement du "mini projet" pendu. Pour finir, nous avons
+converti ce jeu sur console en jeu avec une interface graphique.
+
+Interface:
+
+Les tests dans cette partie sont dictés par les vérifications du pseudo et du mot de passe afin qu'ils respectent les contraintes imposées.
+Un pseudo contient entre 4 et 30 caractères et se limite aux lettres de l'alphabet latin ainsi que les chiffres de 0 à 9.
+Le mot de passe doit être compris entre 7 et 30 caractères.
+Ces tests sont vérifiés constamment par des conditions qui empêchent la création de compte si elles ne sont pas respectées.
+
